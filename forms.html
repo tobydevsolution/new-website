@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Page</title>
+  </head>
+  <body>
+
+  <form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+   <div class="form-example">
+     <textarea name="name" rows="8" cols="80"></textarea>
+
+   </div>
+  <div class="form-example">
+    <input type="submit"  />
+
+</form>
+
+    <!-- Form which will send a GET request to the current URL -->
+  <form method="get">
+    <label>Name:
+      <input name="submitted-name" autocomplete="name">
+    </label>
+    <button>Save</button>
+  </form>
+
+  <!-- Form which will send a POST request to the current URL -->
+  <form method="post">
+    <label>Name:
+      <input name="submitted-name" autocomplete="name">
+    </label>
+    <button>Save</button>
+  </form>
+
+  <!-- Form with fieldset, legend, and label -->
+  <form method="post">
+    <fieldset>
+      <legend>Title</legend>
+      <label><input type="radio" name="radio"> Select me</label>
+    </fieldset>
+  </form>
+
+  </body>
+</html>
